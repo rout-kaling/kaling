@@ -89,6 +89,7 @@
   .status p{color:var(--stone);font-size:16px}
   footer{padding:24px 0 48px;color:var(--stone);font-size:13px;line-height:1.7}
   footer .made{margin-bottom:8px;color:var(--ink)}
+  .screen-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.screen-grid figure{min-width:0}.screen-grid img{width:100%;height:auto;display:block;border:1px solid var(--hairline);border-radius:18px;background:var(--panel)}.screen-grid figcaption{padding:12px 2px;font-size:14px;color:var(--stone)}.screen-grid strong,.screen-grid span{display:block}.screen-grid strong{color:var(--ink);margin-bottom:3px}.app-screens{padding-top:12px}@media(max-width:719px){.screen-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px}}@media(max-width:360px){.screen-grid{grid-template-columns:1fr}.screen-grid figure{max-width:280px;margin:auto}}
   .intro{color:var(--stone);max-width:42em;margin-bottom:24px}
   .feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
   .feature{background:var(--panel);border:1px solid var(--hairline);border-radius:22px;padding:26px 22px;scroll-margin-top:20px}
@@ -136,6 +137,18 @@
       <article class="feature" id="plans"><span class="feature-label">01 / Plans</span><h3>A path to follow</h3><p>Find plans across the Gita, Ramayana and Mahabharata. Read one day at a time and return to your active plans.</p><a href="#download">Try the Plans tab <span aria-hidden="true">↗</span></a></article>
       <article class="feature" id="library"><span class="feature-label">02 / Library</span><h3>Read at your own pace</h3><p>Browse the Gita by chapter and verse, alongside available works in the Library. Open a reading when you want to spend longer with it.</p><a href="#download">Explore the Library <span aria-hidden="true">↗</span></a></article>
       <article class="feature"><span class="feature-label">03 / Reader</span><h3>Space for the words</h3><p>A dedicated reading view with language and text controls. Available content varies by work and language; items marked coming soon are not yet available.</p><a href="#download">Open the Android app <span aria-hidden="true">↗</span></a></article>
+    </div>
+  </section>
+
+  <section class="app-screens" aria-labelledby="screens-heading">
+    <div class="eyebrow">Inside build 109</div>
+    <h2 id="screens-heading">A look inside Kaling</h2>
+    <p class="intro">Rendered from build 109 source by Flutter widget tests. Not phone captures. These English previews use bundled content and a fresh, unnamed profile; downloaded Library works and your progress may differ.</p>
+    <div class="screen-grid">
+      <figure><a href="screens/b109-home.png" aria-label="Open full home source render"><img src="screens/b109-home.png" alt="Build 109 home source render: a verse for the day" width="390" height="1000" loading="lazy"></a><figcaption><strong>Home</strong><span>A verse for the day</span></figcaption></figure>
+      <figure><a href="screens/b109-plans.png" aria-label="Open full plans source render"><img src="screens/b109-plans.png" alt="Build 109 plans source render: find a path to follow" width="390" height="1000" loading="lazy"></a><figcaption><strong>Plans</strong><span>Find a path to follow</span></figcaption></figure>
+      <figure><a href="screens/b109-library.png" aria-label="Open full library source render"><img src="screens/b109-library.png" alt="Build 109 library source render: browse by chapter" width="390" height="1000" loading="lazy"></a><figcaption><strong>Library</strong><span>Browse by chapter</span></figcaption></figure>
+      <figure><a href="screens/b109-reader.png" aria-label="Open full reader source render"><img src="screens/b109-reader.png" alt="Build 109 reader source render: space to read" width="390" height="1000" loading="lazy"></a><figcaption><strong>Reader</strong><span>Space to read</span></figcaption></figure>
     </div>
   </section>
 
