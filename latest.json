@@ -1,8 +1,8 @@
 {
-  "versionName": "1.5.29",
-  "buildNumber": 109,
+  "versionName": "1.5.30",
+  "buildNumber": 110,
   "apkUrl": "https://github.com/rout-kaling/kaling/releases/latest/download/kaling-latest.apk",
-  "apkSha256": "5893bc4ae166946ed1fcd8e09f3dd207e485d36c336c5ac172f51b73de462cdd",
-  "apkSize": 31691654,
+  "apkSha256": "e8adfd702c09b20a9c26c675ad41de7ba5406ab1fcba2e2afc2dbf6f1a78ccae",
+  "apkSize": 31692822,
   "notes": "Android testing build. Not a Play Store release; may have rough edges."
 }
