@@ -1,8 +1,8 @@
 {
-  "versionName": "1.5.36",
-  "buildNumber": 116,
+  "versionName": "1.5.38",
+  "buildNumber": 118,
   "apkUrl": "https://github.com/rout-kaling/kaling/releases/latest/download/kaling-latest.apk",
-  "apkSha256": "03fb443da72312c1626cd551e7bd11fafe2c7c3a65777d9fa109583b7137fab6",
-  "apkSize": 31710366,
-  "notes": "Android testing build. Not a Play Store release; may have rough edges."
+  "apkSha256": "f1da17ce93b9249e5a1e56850678d65b41e333bdb100a71a2caaab573e114643",
+  "apkSize": 40592890,
+  "notes": "Notification-only Gson/R8 repair. Scheduled delivery is not yet runtime-verified or phone-tested. Map and new content are not included."
 }
